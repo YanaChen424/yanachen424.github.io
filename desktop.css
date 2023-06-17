@@ -1,16 +1,18 @@
 :root{
     --font-color-black: #3a3a3aff;
     --font-color-grey: #707070ff;
-    --color-pink: #c36e85ff
+    --color-pink: #c36e85ff;
+    --bg-color-grey: #efefef;
 }
 
 body{
     margin: 0;
-    background: #efefef;
+    background: var(--bg-color-grey);
+    color: var(--font-color-black);
 }
 
 .demo-line{
-    background: #efefef;
+    background: var(--bg-color-grey);
     border-bottom: 0.1em solid white;
 }
 
@@ -33,7 +35,6 @@ body{
     font-size: 35pt;
     font-weight: bold;
     letter-spacing: -0.5px;
-    color: var(--font-color-black);
 }
 .section-header .description{
     margin-top: 10px;
@@ -90,14 +91,14 @@ body{
 .project-item{
     text-decoration: none;
     color: unset;
-    padding: 10px;
 }
 .project-item:hover{
-    background: #efefef;
+    background: var(--bg-color-grey);
+    outline: 7px solid var(--bg-color-grey);
 }
 .project-img{
     width: 100%;
-    background: #efefef;
+    background: var(--bg-color-grey);
 }
 .project-title{
     font-family: Bahnschrift, serif;
