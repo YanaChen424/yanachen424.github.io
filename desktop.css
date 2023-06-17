@@ -1,0 +1,109 @@
+:root{
+    --font-color-black: #3a3a3aff;
+    --font-color-grey: #707070ff;
+    --color-pink: #c36e85ff
+}
+
+body{
+    margin: 0;
+    background: #efefef;
+}
+
+.demo-line{
+    background: #efefef;
+    border-bottom: 0.1em solid white;
+}
+
+.section-header{
+    height: 530px;
+    line-height: 1;
+}
+
+.section-body{
+    width: 900px;
+    height: 100%;
+    margin: auto;
+    border: 0px solid black;
+    position: relative;
+}
+
+.section-header .title{
+    padding-top: 175px;
+    font-family: Cambria, serif;
+    font-size: 35pt;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: var(--font-color-black);
+}
+.section-header .description{
+    margin-top: 10px;
+    font-family: Bahnschrift, sans-serif;
+    font-size: 35pt;
+    font-weight: bold;
+    letter-spacing: -1.3px;
+    color: var(--color-pink);
+}
+.section-header .about{
+    margin-top: 50px;
+    font-family: Bahnschrift, sans-serif;
+    font-size: 12pt;
+    max-width: 330px;
+    color: var(--font-color-grey);
+}
+.section-header .social-media{
+    margin: auto;
+    width: fit-content;
+}
+.section-header .social-media a {
+    text-decoration: none;
+    margin: 0 6px;
+}
+.section-header .theme-art{
+    position: absolute;
+    z-index: -1;
+    bottom: -85px;
+    right: 35px;
+}
+
+
+.section-projects{
+    height: 530px;
+    background: #ffffff;
+    box-shadow: 1px 1px 5px 0px #00000008;
+    z-index: 20;
+    position: relative;
+}
+.section-projects .section-title{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: Bahnschrift, serif;
+    font-size: 16pt;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: var(--font-color-black);
+}
+.section-projects .section-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+}
+.project-item{
+
+}
+.project-img{
+    width: 280px;
+    height: 160px;
+    background: #efefef;
+}
+.project-title{
+    font-family: Bahnschrift, serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.project-description{
+    font-family: Bahnschrift, serif;
+    font-size: 10pt;
+    font-weight: normal;
+    color: var(--font-color-grey);
+    text-align: justify;
+}
