@@ -9,6 +9,7 @@ body{
     margin: 0;
     background: var(--bg-color-grey);
     color: var(--font-color-black);
+    font-family: Bahnschrift, serif;
 }
 
 .demo-line{
@@ -38,7 +39,6 @@ body{
 }
 .section-header .description{
     margin-top: 10px;
-    font-family: Bahnschrift, sans-serif;
     font-size: 35pt;
     font-weight: bold;
     letter-spacing: -1.3px;
@@ -46,7 +46,6 @@ body{
 }
 .section-header .about{
     margin-top: 50px;
-    font-family: Bahnschrift, sans-serif;
     font-size: 12pt;
     max-width: 330px;
     color: var(--font-color-grey);
@@ -83,7 +82,6 @@ body{
     color: white;
     padding-top: 36px;
     padding-bottom: 5px;
-    font-family: Bahnschrift, serif;
     font-size: 14pt;
     font-weight: 400;
     text-align: center;
@@ -96,10 +94,18 @@ body{
 .project-item{
     position: relative;
     text-decoration: none;
-    color: unset;
     background: white;
     padding: 7px;
     margin-top: 8px;
+}
+.project-item.placeholder{
+    padding: 100px 20px 0 20px;
+    background: #c6c1c3;
+    border: 7px solid white;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
 }
 .project-img{
     width: 100%;
@@ -111,7 +117,6 @@ body{
     right: 7px;
     left: 7px;
     height: 100px;
-    font-family: Bahnschrift, serif;
     font-size: 14pt;
     font-weight: 400;
     color: white;
@@ -119,7 +124,6 @@ body{
     background: linear-gradient(var(--font-color-black), transparent);
 }
 .project-description{
-    font-family: Bahnschrift, serif;
     font-size: 10pt;
     font-weight: normal;
     color: var(--font-color-grey);
