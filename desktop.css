@@ -17,7 +17,7 @@ body{
 }
 
 .section-header{
-    height: 530px;
+    height: 520px;
     line-height: 1;
 }
 
@@ -30,7 +30,7 @@ body{
 }
 
 .section-header .title{
-    padding-top: 175px;
+    padding-top: 185px;
     font-family: Cambria, serif;
     font-size: 35pt;
     font-weight: bold;
@@ -62,53 +62,65 @@ body{
 .section-header .theme-art{
     position: absolute;
     z-index: -1;
-    bottom: -85px;
+    top: -2px;
     right: 10px;
 }
 
 
 .section-projects{
     height: 530px;
-    background: #ffffff;
+    background: #c6c1c3;
     box-shadow: 1px 1px 5px 0px #00000008;
     z-index: 20;
     position: relative;
 }
 .section-projects .section-title{
-    padding-top: 30px;
-    padding-bottom: 20px;
+    position: absolute;
+    left: -102px;
+    top: -15px;
+    width: 95px;
+    background: var(--font-color-black);
+    color: white;
+    padding-top: 36px;
+    padding-bottom: 5px;
     font-family: Bahnschrift, serif;
-    font-size: 16pt;
-    font-weight: bold;
-    letter-spacing: -1px;
-    color: var(--font-color-black);
+    font-size: 14pt;
+    font-weight: 400;
+    text-align: center;
 }
 .section-projects .section-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px 20px;
+    grid-gap: 8px 8px;
 }
 .project-item{
+    position: relative;
     text-decoration: none;
     color: unset;
-}
-.project-item:hover{
-    background: var(--bg-color-grey);
-    outline: 7px solid var(--bg-color-grey);
+    background: white;
+    padding: 7px;
+    margin-top: 8px;
 }
 .project-img{
     width: 100%;
     background: var(--bg-color-grey);
 }
 .project-title{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    left: 7px;
+    height: 100px;
     font-family: Bahnschrift, serif;
-    font-size: 12pt;
-    font-weight: bold;
+    font-size: 14pt;
+    font-weight: 400;
+    color: white;
+    padding: 7px 8px;
+    background: linear-gradient(var(--font-color-black), transparent);
 }
 .project-description{
     font-family: Bahnschrift, serif;
     font-size: 10pt;
     font-weight: normal;
     color: var(--font-color-grey);
-    text-align: justify;
 }
