@@ -2,6 +2,7 @@
     --font-color-black: #3a3a3aff;
     --font-color-grey: #707070ff;
     --color-pink: #c36e85ff;
+    --color-light-ping: #d08da0ff;
     --bg-color-grey: #efefef;
 }
 
@@ -127,4 +128,20 @@ body{
     font-size: 10pt;
     font-weight: normal;
     color: var(--font-color-grey);
+    margin-bottom: 10px;
+}
+.project-link{
+    position: absolute;
+    bottom: -7px;
+    right: 5px;
+    font-size: 10pt;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    background: var(--color-pink);
+    padding: 6px 9px 4px 9px;
+    color: white
+}
+.project-link:hover{
+    background: var(--color-light-ping);
 }
