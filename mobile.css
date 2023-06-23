@@ -1,0 +1,39 @@
+@media only screen and (max-width: 900px) {
+    .section-header{
+        height: unset;
+        line-height: 1;
+    }
+    .section-body{
+        width: 100%;
+    }
+    .section-header .section-body{
+        padding: 0 15px;
+    }
+    .section-header .title{
+        padding-top: 20px;
+    }
+    .section-header .about{
+        margin-top: 20px;
+    }
+    .section-header .social-media{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .section-header .theme-art{
+        display: none;
+    }
+
+    .section-projects .section-title{
+        left: unset;
+    }
+    .section-projects .section-body{
+        padding: 50px 8px 0 8px;
+    }   
+    .section-projects .section-content{
+        grid-template-columns: 1fr;
+    }
+    .section-projects .project-description,
+    .section-projects .project-link{
+        font-size: 14pt;
+    }
+}

@@ -25,10 +25,10 @@ body{
 
 .section-body{
     width: 900px;
-    height: 100%;
     margin: auto;
     border: 0px solid black;
     position: relative;
+    box-sizing: border-box;
 }
 
 .section-header .title{
@@ -69,7 +69,6 @@ body{
 
 
 .section-projects{
-    height: 530px;
     background: #c6c1c3;
     box-shadow: 1px 1px 5px 0px #00000008;
     z-index: 20;
@@ -92,13 +91,16 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 8px 8px;
+    padding-top: 8px;
+    padding-bottom: 50px;
 }
 .project-item{
     position: relative;
     text-decoration: none;
     background: white;
     padding: 7px;
-    margin-top: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 .project-item.placeholder{
     padding: 100px 20px 0 20px;
@@ -129,7 +131,7 @@ body{
     font-size: 10pt;
     font-weight: normal;
     color: var(--font-color-grey);
-    margin-bottom: 10px;
+    margin-bottom: 2em;
 }
 .project-link{
     position: absolute;
