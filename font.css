@@ -1,0 +1,23 @@
+/*
+ * Cambria
+ */
+@font-face {
+    font-family: 'Hosted-Cambria';
+    src: url('/fonts/cambria.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hosted-Cambria';
+    src: url('/fonts/cambriab.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*
+ * Bahnschrift
+ */
+@font-face {
+    font-family: 'Hosted-Bahnschrift';
+    src: url('/fonts/bahnschrift.ttf') format('truetype');
+}

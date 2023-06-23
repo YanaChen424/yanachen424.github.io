@@ -1,16 +1,21 @@
+@import url(font.css);
+
+
 :root{
     --font-color-black: #3a3a3aff;
     --font-color-grey: #707070ff;
     --color-pink: #c36e85ff;
     --color-light-ping: #d08da0ff;
     --bg-color-grey: #efefef;
+    --font-face-cambria: Cambria, 'Hosted-Cambria', serif;
+    --font-face-bahnschrift: Bahnschrift, 'Hosted-Bahnschrift', Sans-serif;
 }
 
 body{
     margin: 0;
     background: var(--bg-color-grey);
     color: var(--font-color-black);
-    font-family: Bahnschrift, serif;
+    font-family: var(--font-face-bahnschrift)
 }
 
 .demo-line{
@@ -33,7 +38,7 @@ body{
 
 .section-header .title{
     padding-top: 185px;
-    font-family: Cambria, serif;
+    font-family: var(--font-face-cambria);
     font-size: 35pt;
     font-weight: bold;
     letter-spacing: -0.5px;
