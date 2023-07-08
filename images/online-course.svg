@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="30.615984"
-   height="30.615984"
-   viewBox="0 0 8.1004789 8.1004789"
+   width="49.752552"
+   height="30.78248"
+   viewBox="0 0 13.163696 8.1445311"
    version="1.1"
    id="svg5"
    xml:space="preserve"
    inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
-   sodipodi:docname="portfolio9.svg"
+   sodipodi:docname="portfolio5.svg"
    inkscape:export-filename="portfolio.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -27,15 +27,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.9983453"
-     inkscape:cx="939.55468"
-     inkscape:cy="315.52209"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="979.34289"
+     inkscape:cy="755.19004"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g18553-1" /><defs
+     inkscape:current-layer="g30770-1" /><defs
      id="defs2"><linearGradient
        id="linearGradient60825"
        inkscape:swatch="solid"><stop
@@ -48,16 +48,19 @@
 		.shp1 { fill: #000000 } 
 		.shp2 { fill: #808080 } 
 	</style><g
-     id="g56894"
-     inkscape:label="Header"
+     id="g609"
+     inkscape:label="Education"
+     transform="translate(-159.64544,-244.12229)"
      style="display:inline"
-     inkscape:highlight-color="#df78bd"
-     transform="translate(-230.46135,-126.26181)"
-     inkscape:groupmode="layer"><path
-       id="Linkedin-Icon-SVG-09yudf"
-       d="m 234.51159,126.26181 a 4.0502417,4.0502417 0 1 0 4.05024,4.05024 4.0505062,4.0505062 0 0 0 -4.05024,-4.05024 z m -1.17687,6.12272 h -0.98636 v -2.96756 h 0.98636 z m -0.49212,-3.37291 h -0.006 a 0.5635625,0.5635625 0 1 1 0.006,0 z m 4.04812,3.37291 h -0.98636 v -1.5875 c 0,-0.39899 -0.14288,-0.67125 -0.4998,-0.67125 a 0.53975,0.53975 0 0 0 -0.50615,0.36063 0.67495208,0.67495208 0 0 0 -0.0325,0.24077 v 1.65709 h -0.98637 c 0,0 0.013,-2.68923 0,-2.96757 h 0.98637 v 0.42016 a 0.97895833,0.97895833 0 0 1 0.889,-0.48974 c 0.64902,0 1.13559,0.42333 1.13559,1.33561 z m 0,0"
-       style="display:inline;fill:#c36e85;fill-opacity:1;stroke-width:0.264583"
-       inkscape:label="Linkedin" /></g><style
+     inkscape:groupmode="layer"><g
+       id="g603"
+       inkscape:label="Column 3"
+       transform="translate(155.71846,120.99304)"
+       style="display:inline"><path
+         id="path601"
+         style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.409;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         d="M 15.257186,130.35126 H 4.1314864 v 0.71802 H 16.886186 v -0.68896 l -0.88727,-0.021 v -6.66176 c 0,-0.20155 -0.16226,-0.3638 -0.3638,-0.3638 H 5.3825064 c -0.20155,0 -0.36403,0.16225 -0.3638,0.3638 l 0.006,5.93713 m 5.5300896,-1.89176 h 3.0892 m -3.04743,-1.06381 h 3.88209 m -3.96584,-1.01704 h 2.36287 m -2.27912,-1.0872 h 3.88209 m -5.0851896,4.23029 v 0.35081 h -2.75247 c -0.38683,0 -0.68626,-0.30783 -0.68626,-0.70662 0,-0.39879 -0.0206,-2.96503 0,-3.37551 0.0206,-0.41048 0.34102,-0.75553 0.76067,-0.75553 h 2.63128 v 3.79566 h -2.6802"
+         inkscape:label="Icon" /></g></g><style
      id="style58337">
 		tspan { white-space:pre }
 		.shp0 { fill: #4c4c4c } 
@@ -73,8 +76,4 @@
 		.shp0 { fill: #4c4c4c } 
 		.shp1 { fill: #000000 } 
 		.shp2 { fill: #808080 } 
-	</style><style
-     type="text/css"
-     id="style28410">
-	.st0{fill:#A435F0;}
-</style></svg>
+	</style></svg>

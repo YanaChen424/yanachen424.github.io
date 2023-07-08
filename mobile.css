@@ -16,24 +16,50 @@
         margin-top: 20px;
     }
     .section-header .social-media{
-        margin-top: 10px;
-        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
     .section-header .theme-art{
         display: none;
     }
 
-    .section-projects .section-title{
-        left: unset;
+    .section-title{
+        left: 8px;
+        right: unset;
+        top: 0;
     }
-    .section-projects .section-body{
-        padding: 50px 8px 0 8px;
+    .section-title div{
+        left: 0;
+        right: unset;
+    }
+
+    .section-body{
+        padding: 0 8px 0 8px;
     }   
+    .section-projects{
+        padding-top: 0;
+    }
     .section-projects .section-content{
         grid-template-columns: 1fr;
     }
-    .section-projects .project-description,
-    .section-projects .project-link{
+    .project-description,
+    .project-link,
+    .education-title,
+    .education-subtitle{
         font-size: 14pt;
+    }
+
+    .section-education .section-content{
+        grid-template-columns: 1fr;
+        padding-top: 20px;
+    }
+    .education-item{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        /* margin: 0 50px; */
+    }
+    .education-item:not(:first-child){
+        border: none;
+        /* border-top: 2px solid #c6c1c3ff; */
     }
 }
